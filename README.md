@@ -1,1 +1,1 @@
-# Generation-L-gica-de-Programa-o
+# Generation-Logica-de-Programacao
