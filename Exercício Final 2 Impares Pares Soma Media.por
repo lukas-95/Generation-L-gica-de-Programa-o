@@ -3,10 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero[10] = {2, 5, 1, 3, 4, 9, 7, 8, 10, 6}
+		inteiro numero[10] 
 		inteiro x
 		inteiro soma = 0
-		inteiro media = 0
+		real media = 0
+
+
+    para (x=0; x<=9; x++)
+    {
+      escreva("Digite a posição "+x+":")
+      leia(numero[x])
+      limpa()
+
+    }
+
+
+
 
 		escreva("Elementos nos índices ÍMPARES:\n")
 		para(x = 0; x < 10; x++)
